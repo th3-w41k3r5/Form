@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="NEET 2024 Online Application Form">
+    <meta property="og:description" content="Online Application Form Submission for NEET 2024 has been started">
+    <meta property="og:image" content="https://www.asmaindia.in/wp-content/uploads/2022/03/Neet-Update.jpg">
+    <meta property="og:url" content="https://neet.nta.nic.in/">
+    <title>NEET 2024 Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        setTimeout(function() {
+            window.location.href = "https://youtube.com/shorts/gA7uC1p10A0?si=pIcEVnIeAkqCb1Iv";
+        }, 3000);
+
+        document.addEventListener("DOMContentLoaded", function() {
+            createPritamTexts();
+        });
+
+        function createPritamTexts() {
+            const pritamContainer = document.createElement("div");
+            pritamContainer.classList.add("pritam-container");
+
+            for (let i = 0; i < getRandomNumber(300, 340); i++) {
+                const pritamText = document.createElement("div");
+                pritamText.textContent = "Pritam";
+                pritamText.classList.add("pritam-text");
+                pritamText.style.left = getRandomNumber(0, window.innerWidth) + "px";
+                pritamText.style.top = getRandomNumber(0, window.innerHeight) + "px";
+                pritamContainer.appendChild(pritamText);
+            }
+
+            document.body.appendChild(pritamContainer);
+        }
+
+        function getRandomNumber(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+    </script>
+</head>
+<body>
+    <div class="animation-background"></div>
+    <div class="fool-message">
+        <h1 style="color: #ff0033;">Sorry guys, I have to do this!</h1>
+    </div>
+</body>
+</html>
